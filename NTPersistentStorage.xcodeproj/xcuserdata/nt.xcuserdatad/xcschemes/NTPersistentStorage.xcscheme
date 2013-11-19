@@ -28,6 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6FB3BF6E183BBC890004B89A"
+               BuildableName = "NTPersistentStorageTests.xctest"
+               BlueprintName = "NTPersistentStorageTests"
+               ReferencedContainer = "container:NTPersistentStorage.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

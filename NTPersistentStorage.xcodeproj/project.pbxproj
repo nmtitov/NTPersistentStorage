@@ -10,7 +10,22 @@
 		6FB3BF5E183BBC6C0004B89A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB3BF5D183BBC6C0004B89A /* Foundation.framework */; };
 		6FB3BF61183BBC6C0004B89A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3BF60183BBC6C0004B89A /* main.m */; };
 		6FB3BF65183BBC6C0004B89A /* NTPersistentStorage.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6FB3BF64183BBC6C0004B89A /* NTPersistentStorage.1 */; };
+		6FB3BF71183BBC890004B89A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB3BF70183BBC890004B89A /* XCTest.framework */; };
+		6FB3BF77183BBC890004B89A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FB3BF75183BBC890004B89A /* InfoPlist.strings */; };
+		6FB3BF82183BBC980004B89A /* NTPersistentStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3BF81183BBC980004B89A /* NTPersistentStorage.m */; };
+		6FB3BF83183BBC980004B89A /* NTPersistentStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3BF81183BBC980004B89A /* NTPersistentStorage.m */; };
+		6FB3BF85183BBCA10004B89A /* NTPersistentStorageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3BF84183BBCA10004B89A /* NTPersistentStorageTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FB3BF7B183BBC8A0004B89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FB3BF52183BBC6C0004B89A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FB3BF59183BBC6C0004B89A;
+			remoteInfo = NTPersistentStorage;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		6FB3BF58183BBC6C0004B89A /* CopyFiles */ = {
@@ -31,6 +46,14 @@
 		6FB3BF60183BBC6C0004B89A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6FB3BF63183BBC6C0004B89A /* NTPersistentStorage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NTPersistentStorage-Prefix.pch"; sourceTree = "<group>"; };
 		6FB3BF64183BBC6C0004B89A /* NTPersistentStorage.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NTPersistentStorage.1; sourceTree = "<group>"; };
+		6FB3BF6F183BBC890004B89A /* NTPersistentStorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTPersistentStorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB3BF70183BBC890004B89A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6FB3BF74183BBC890004B89A /* NTPersistentStorageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NTPersistentStorageTests-Info.plist"; sourceTree = "<group>"; };
+		6FB3BF76183BBC890004B89A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6FB3BF7A183BBC890004B89A /* NTPersistentStorageTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NTPersistentStorageTests-Prefix.pch"; sourceTree = "<group>"; };
+		6FB3BF80183BBC980004B89A /* NTPersistentStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTPersistentStorage.h; sourceTree = "<group>"; };
+		6FB3BF81183BBC980004B89A /* NTPersistentStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTPersistentStorage.m; sourceTree = "<group>"; };
+		6FB3BF84183BBCA10004B89A /* NTPersistentStorageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTPersistentStorageTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +65,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6FB3BF6C183BBC890004B89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB3BF71183BBC890004B89A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				6FB3BF5F183BBC6C0004B89A /* NTPersistentStorage */,
+				6FB3BF72183BBC890004B89A /* NTPersistentStorageTests */,
 				6FB3BF5C183BBC6C0004B89A /* Frameworks */,
 				6FB3BF5B183BBC6C0004B89A /* Products */,
 			);
@@ -58,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				6FB3BF5A183BBC6C0004B89A /* NTPersistentStorage */,
+				6FB3BF6F183BBC890004B89A /* NTPersistentStorageTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				6FB3BF5D183BBC6C0004B89A /* Foundation.framework */,
+				6FB3BF70183BBC890004B89A /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,6 +107,8 @@
 		6FB3BF5F183BBC6C0004B89A /* NTPersistentStorage */ = {
 			isa = PBXGroup;
 			children = (
+				6FB3BF80183BBC980004B89A /* NTPersistentStorage.h */,
+				6FB3BF81183BBC980004B89A /* NTPersistentStorage.m */,
 				6FB3BF60183BBC6C0004B89A /* main.m */,
 				6FB3BF64183BBC6C0004B89A /* NTPersistentStorage.1 */,
 				6FB3BF62183BBC6C0004B89A /* Supporting Files */,
@@ -84,6 +120,25 @@
 			isa = PBXGroup;
 			children = (
 				6FB3BF63183BBC6C0004B89A /* NTPersistentStorage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FB3BF72183BBC890004B89A /* NTPersistentStorageTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FB3BF84183BBCA10004B89A /* NTPersistentStorageTests.m */,
+				6FB3BF73183BBC890004B89A /* Supporting Files */,
+			);
+			path = NTPersistentStorageTests;
+			sourceTree = "<group>";
+		};
+		6FB3BF73183BBC890004B89A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FB3BF74183BBC890004B89A /* NTPersistentStorageTests-Info.plist */,
+				6FB3BF75183BBC890004B89A /* InfoPlist.strings */,
+				6FB3BF7A183BBC890004B89A /* NTPersistentStorageTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -108,6 +163,24 @@
 			productReference = 6FB3BF5A183BBC6C0004B89A /* NTPersistentStorage */;
 			productType = "com.apple.product-type.tool";
 		};
+		6FB3BF6E183BBC890004B89A /* NTPersistentStorageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB3BF7D183BBC8A0004B89A /* Build configuration list for PBXNativeTarget "NTPersistentStorageTests" */;
+			buildPhases = (
+				6FB3BF6B183BBC890004B89A /* Sources */,
+				6FB3BF6C183BBC890004B89A /* Frameworks */,
+				6FB3BF6D183BBC890004B89A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FB3BF7C183BBC8A0004B89A /* PBXTargetDependency */,
+			);
+			name = NTPersistentStorageTests;
+			productName = NTPersistentStorageTests;
+			productReference = 6FB3BF6F183BBC890004B89A /* NTPersistentStorageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -116,6 +189,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = pawzzle.net;
+				TargetAttributes = {
+					6FB3BF6E183BBC890004B89A = {
+						TestTargetID = 6FB3BF59183BBC6C0004B89A;
+					};
+				};
 			};
 			buildConfigurationList = 6FB3BF55183BBC6C0004B89A /* Build configuration list for PBXProject "NTPersistentStorage" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -130,20 +208,61 @@
 			projectRoot = "";
 			targets = (
 				6FB3BF59183BBC6C0004B89A /* NTPersistentStorage */,
+				6FB3BF6E183BBC890004B89A /* NTPersistentStorageTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FB3BF6D183BBC890004B89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB3BF77183BBC890004B89A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6FB3BF56183BBC6C0004B89A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB3BF82183BBC980004B89A /* NTPersistentStorage.m in Sources */,
 				6FB3BF61183BBC6C0004B89A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6FB3BF6B183BBC890004B89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB3BF85183BBCA10004B89A /* NTPersistentStorageTests.m in Sources */,
+				6FB3BF83183BBC980004B89A /* NTPersistentStorage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FB3BF7C183BBC8A0004B89A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FB3BF59183BBC6C0004B89A /* NTPersistentStorage */;
+			targetProxy = 6FB3BF7B183BBC8A0004B89A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FB3BF75183BBC890004B89A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FB3BF76183BBC890004B89A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6FB3BF66183BBC6C0004B89A /* Debug */ = {
@@ -232,6 +351,40 @@
 			};
 			name = Release;
 		};
+		6FB3BF7E183BBC8A0004B89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NTPersistentStorageTests/NTPersistentStorageTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NTPersistentStorageTests/NTPersistentStorageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6FB3BF7F183BBC8A0004B89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NTPersistentStorageTests/NTPersistentStorageTests-Prefix.pch";
+				INFOPLIST_FILE = "NTPersistentStorageTests/NTPersistentStorageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -249,6 +402,14 @@
 			buildConfigurations = (
 				6FB3BF69183BBC6C0004B89A /* Debug */,
 				6FB3BF6A183BBC6C0004B89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FB3BF7D183BBC8A0004B89A /* Build configuration list for PBXNativeTarget "NTPersistentStorageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB3BF7E183BBC8A0004B89A /* Debug */,
+				6FB3BF7F183BBC8A0004B89A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
