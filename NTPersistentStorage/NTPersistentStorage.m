@@ -43,7 +43,7 @@ NSString * const persistent = @"persistent";
         return [super methodSignatureForSelector:@selector(valueForKey:)];
     }
     else if (parameterCount == 1 && [stringSelector hasPrefix:@"set"]) {
-        return [super methodSignatureForSelector:@selector(setValue:forKey:)];  // Discard the call return nil;
+        return [super methodSignatureForSelector:@selector(setValue:forKey:)];
     }
     [self doesNotRecognizeSelector:selector];
     return nil;
